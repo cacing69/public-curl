@@ -1,0 +1,3 @@
+curl \
+  '<<URL>>' \
+  -H 'Authorization: Bearer <<'
