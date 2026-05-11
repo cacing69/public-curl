@@ -1,5 +1,5 @@
 {
-  "id": "1c7fc6d4-b048-4c90-8041-562a0dd77e41",
+  "id": "2791ec9c-05be-4519-a6dc-0108f6e1545d",
   "name": "public-curl[github]",
   "description": null,
   "created_at": "2026-05-11T01:28:37.454944",
@@ -7,7 +7,7 @@
   "mode": "git",
   "last_sync_sha": "513c3730eb949a43bcd4fc1b70b4f2b9fd95c311",
   "remote_url": "https://github.com/cacing69/public-curl",
-  "provider": "1f21f039-e828-4927-ada9-7f93c7a759b5",
+  "provider": "948c613a-0a33-4246-ab11-a4ab60928101",
   "branch": "main",
   "remote_origin_id": "2791ec9c-05be-4519-a6dc-0108f6e1545d"
 }
