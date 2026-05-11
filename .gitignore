@@ -1,5 +1,4 @@
 # Curel ignore file
-# Ignore environments containing sensitive variables
 environments/
 .env
 *.local
