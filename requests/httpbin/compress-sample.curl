@@ -1,0 +1,7 @@
+curl --request GET \
+  --url "https://httpbin.org/get?search=flutter&page=1" \
+  --header "Accept: application/json" \
+  --header "User-Agent: Curel/1.0" \
+  --compressed \
+  --location \
+  --verbose
