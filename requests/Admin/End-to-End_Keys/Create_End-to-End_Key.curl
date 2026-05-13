@@ -1,0 +1,8 @@
+curl \
+  -X POST \
+  -d '{
+  "name" : "test-e2e-key-name",
+  "description" : "test-e2e-key-description"
+}' \
+  -H 'Content-Type: application/json' \
+  '<<service_url>>/api/admin/v1/e2e-keys'

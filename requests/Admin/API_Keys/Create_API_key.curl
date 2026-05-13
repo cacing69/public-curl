@@ -1,0 +1,7 @@
+curl \
+  -X POST \
+  -d '{
+  "description" : "This is a description"
+}' \
+  -H 'Content-Type: application/json' \
+  '<<service_url>>/api/admin/v1/api-keys'

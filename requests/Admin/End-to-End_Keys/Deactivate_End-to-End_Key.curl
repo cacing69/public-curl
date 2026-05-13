@@ -1,0 +1,7 @@
+curl \
+  -X PUT \
+  -d '{
+    "status": "DISABLED"
+}' \
+  -H 'Content-Type: application/json' \
+  '<<service_url>>/api/admin/v1/e2e-keys/<<e2eKeyId>>/status'

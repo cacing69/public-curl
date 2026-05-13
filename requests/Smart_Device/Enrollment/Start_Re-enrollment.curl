@@ -1,0 +1,11 @@
+curl \
+  -X POST \
+  -H 'Content-Type: application/json' \
+  -d '{
+	"application_id": "<<application_id>>",
+	"session_expiry_time": 300000,
+	"authentication_level": "TWO_FACTOR",
+    "device_id": "<<device_id>>"
+}
+' \
+  '<<service_url>>/api/smart-device/v1/enrollments'

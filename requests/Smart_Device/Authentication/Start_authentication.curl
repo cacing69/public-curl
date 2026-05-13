@@ -1,0 +1,13 @@
+curl \
+  -X POST \
+  -H 'Content-Type: application/json' \
+  -d '{
+	"device_id":"<<device_id>>",
+    "session_expiry_time": 300000,
+    "authentication_level": "TWO_FACTOR",
+	"pre_operation_context": {
+        "context_content_b64": "VkdobElHTnZiWEJoYm5rZ2QyRnVkSE1nZVc5MWNpQmhjSEJ5YjNaaGJBPT0=",
+        "context_mime": "text/plain"
+    }
+}' \
+  '<<service_url>>/api/smart-device/v1/authentications'

@@ -1,3 +1,0 @@
-curl \
-  '<<URL>>' \
-  -H 'Authorization: Bearer <<APIKEY_EXAMPLE>>'

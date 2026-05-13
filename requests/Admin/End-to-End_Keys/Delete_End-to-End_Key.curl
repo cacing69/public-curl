@@ -1,0 +1,3 @@
+curl \
+  -X DELETE \
+  '<<service_url>>/api/admin/v1/e2e-keys/<<e2eKeyId>>'

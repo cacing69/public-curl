@@ -1,0 +1,3 @@
+curl \
+  -H 'Content-Type: application/json' \
+  '<<service_url>>/api/smart-device/v1/devices/<<device_id>>/geofencing'

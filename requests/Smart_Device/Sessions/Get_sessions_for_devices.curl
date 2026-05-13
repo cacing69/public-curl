@@ -1,0 +1,3 @@
+curl \
+  -H 'Content-Type: application/json' \
+  '<<service_url>>/api/smart-device/v1/sessions?deviceId=<<device_id>>&deviceId=<<old_device_id>>&limit=1'

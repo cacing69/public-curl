@@ -1,4 +1,0 @@
-curl -X POST \
-     -F 'name=John' \
-     -F 'avatar=@photo.jpg' \
-     https://httpbin.org/post

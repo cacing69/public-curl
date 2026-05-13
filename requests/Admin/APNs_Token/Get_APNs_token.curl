@@ -1,0 +1,2 @@
+curl \
+  '<<service_url>>/api/admin/v1/apnstokens/<<apns_token_uuid>>'

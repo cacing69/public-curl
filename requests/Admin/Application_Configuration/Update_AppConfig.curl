@@ -1,0 +1,10 @@
+curl \
+  -X PATCH \
+  -H 'Content-Type: application/merge-patch+json' \
+  -d '{
+    "status": "DISABLED",
+    "configuration": {
+        "CLIENT_ONLY_ALLOWED": "false"
+    }
+}' \
+  '<<service_url>>/api/admin/v1/appconfig/<<app_uuid>>'

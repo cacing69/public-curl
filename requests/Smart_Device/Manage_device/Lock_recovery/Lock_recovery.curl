@@ -1,0 +1,7 @@
+curl \
+  -X PUT \
+  -H 'Content-Type: application/json' \
+  -d '{
+	"recovery_lock":"true"
+}' \
+  '<<service_url>>/api/smart-device/v1/devices/<<device_id>>/recovery-lock'

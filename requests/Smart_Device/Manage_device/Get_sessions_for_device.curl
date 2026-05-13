@@ -1,0 +1,2 @@
+curl \
+  '<<service_url>>/api/smart-device/v1/devices/<<device_id>>/sessions?limit=10'

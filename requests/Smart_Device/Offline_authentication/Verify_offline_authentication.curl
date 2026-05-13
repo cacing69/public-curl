@@ -1,0 +1,7 @@
+curl \
+  -X POST \
+  -H 'Content-Type: application/json' \
+  -d '{
+	"otp":"{otp}"
+}' \
+  '<<service_url>>/api/smart-device/v1/offline-authentications/<<session_id>>/verifications'

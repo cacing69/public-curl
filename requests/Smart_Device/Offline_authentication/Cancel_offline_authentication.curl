@@ -1,0 +1,4 @@
+curl \
+  -X DELETE \
+  -d '' \
+  '<<service_url>>/api/smart-device/v1/offline-authentications/<<session_id>>'

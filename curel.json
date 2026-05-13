@@ -1,13 +1,13 @@
 {
-  "id": "1c7fc6d4-b048-4c90-8041-562a0dd77e41",
-  "name": "public-curl",
-  "description": null,
-  "created_at": "2026-05-10T20:49:27.997854",
-  "updated_at": "2026-05-11T14:23:28.857468",
+  "id": "f84d270a-116d-4d3e-83ee-787bef28370d",
+  "name": "EncapExample 3.21",
+  "description": "",
+  "created_at": "2026-05-12T16:22:22.892455",
+  "updated_at": "2026-05-13T13:19:34.960426",
   "mode": "git",
-  "last_sync_sha": "e726d3ce3217caa379ac74759db2a8414c288ba0",
-  "remote_url": "https://github.com/cacing69/public-curl",
-  "provider": "1f21f039-e828-4927-ada9-7f93c7a759b5",
+  "last_sync_sha": "fe1bbb009e08ba1b02079179c76105eff91e22b1",
+  "remote_url": "https://github.com/cacing69/public-curl.git",
+  "provider": "52945695-a7c0-462c-b4ce-98326dbb7620",
   "branch": "main",
-  "remote_origin_id": "2791ec9c-05be-4519-a6dc-0108f6e1545d"
+  "remote_origin_id": "f84d270a-116d-4d3e-83ee-787bef28370d"
 }

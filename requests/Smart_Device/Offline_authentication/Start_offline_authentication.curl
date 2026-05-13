@@ -1,0 +1,10 @@
+curl \
+  -X POST \
+  -H 'Content-Type: application/json' \
+  -d '{
+	"device_id":"<<device_id>>",
+    "session_expiry_time": 300000,
+    "authentication_method": "OFFLINE_PIN",
+	"context": "Some context"
+}' \
+  '<<service_url>>/api/smart-device/v1/offline-authentications'

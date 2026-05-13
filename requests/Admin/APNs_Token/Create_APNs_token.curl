@@ -1,0 +1,11 @@
+curl \
+  -X POST \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "name" : "{APNs token name}",
+  "description" : "This is a test token",
+  "private_key_b64" : "{b64 encoded private key}",
+  "key_id" : "{test key id}",
+  "team_id" : "{test team id}"
+}' \
+  '<<service_url>>/api/admin/v1/apnstokens'

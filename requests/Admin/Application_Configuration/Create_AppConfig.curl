@@ -1,0 +1,25 @@
+curl \
+  -X POST \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "app_id": "NewAppWithApns-<<apns_uuid>>",
+    "apns_uuid" : "<<apns_uuid>>",
+    "configuration": {
+        "NATIVE_PUSH_ENABLED": "true",
+        "FIREBASE_TIME_TO_LIVE": "0",
+        "FIREBASE_SERVICE_ACCOUNT": "<<firebase_service_account>>",
+        "CLIENT_ONLY_ALLOWED": "true",
+        "AMOUNT_FAILURES_ALLOWED": "3",
+        "PIN_CODE_LENGTH": "4",
+        "ACTIVATION_CODE_LENGTH": "8",
+        "APN_CONFIG": "PRODUCTION",
+    	"ALLOWED_AUTH_METHODS":"DEVICE,DEVICE:PIN,DEVICE:TOUCH_ID,DEVICE:STRONG_TOUCH_ID,DEVICE:IOS_FACE_ID,DEVICE:ANDROID_FINGERPRINT",
+        "PIN_CODE_TYPE": "NUMERIC",
+        "ACTIVATION_CODE_TYPE": "NUMERIC",
+        "SESSION_EXPIRY": "300000",
+        "ENABLED_RISK_DATA" : "ALL",
+        "CLIENT_DEBUG_DATA_ENABLED_OS_TYPES": "Android"
+       
+    }
+}' \
+  '<<service_url>>/api/admin/v1/appconfig'

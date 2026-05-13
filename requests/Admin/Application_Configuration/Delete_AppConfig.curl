@@ -1,0 +1,4 @@
+curl \
+  -X DELETE \
+  -d '' \
+  '<<service_url>>/api/admin/v1/appconfig/<<app_uuid>>'

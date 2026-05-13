@@ -1,9 +1,0 @@
-curl --request POST \
-  --header "PRIVATE-TOKEN: TOKEN" \
-  --header "Content-Type: application/json" \
-  --data '{
-    "source_branch": "feature/login",
-    "target_branch": "main",
-    "title": "Add login feature"
-  }' \
-  "https://git.example.com/api/v4/projects/mygroup%2Fmyrepo/merge_requests"

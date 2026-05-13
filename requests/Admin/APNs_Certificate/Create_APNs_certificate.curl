@@ -1,0 +1,10 @@
+curl \
+  -X POST \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "name" : "NewApnsName",
+  "description" : "This is a test APNs",
+  "apns_certificate_b64" : "b64 encoded apns cert",
+  "password" : "encap"
+}' \
+  '<<service_url>>/api/admin/v1/apns'

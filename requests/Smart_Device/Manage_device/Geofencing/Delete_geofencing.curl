@@ -1,0 +1,5 @@
+curl \
+  -X DELETE \
+  -H 'Content-Type: application/json' \
+  -d '' \
+  '<<service_url>>/api/smart-device/v1/devices/<<device_id>>/geofencing'

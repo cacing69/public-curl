@@ -1,0 +1,4 @@
+curl \
+  -H 'Content-Type: application/json' \
+  -d '' \
+  '<<service_url>>/api/statistics/v1/encap-client-versions/<<statistics_uuid>>'

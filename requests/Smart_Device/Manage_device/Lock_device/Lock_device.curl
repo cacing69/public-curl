@@ -1,0 +1,7 @@
+curl \
+  -X POST \
+  -H 'Content-Type: application/json' \
+  -d '{
+	"device_id":"<<device_id>>"
+}' \
+  '<<service_url>>/api/smart-device/v1/devices/<<device_id>>/lock'

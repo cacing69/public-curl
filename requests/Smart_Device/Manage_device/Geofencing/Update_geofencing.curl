@@ -1,0 +1,10 @@
+curl \
+  -X PUT \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "mode": "REQUIRED",
+    "allowed_continents": "EU",
+    "allowed_countries": "CT,XX",
+    "denied_countries": "RU"
+}' \
+  '<<service_url>>/api/smart-device/v1/devices/<<device_id>>/geofencing'
